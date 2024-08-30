@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: azure;
+}
+
+main {
+    width:90%;
+    margin-inline:auto;
+}
+
+h1,h2,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p,li {
+    font-size: 18px;
+}
+
+.img-ctn {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img-ctn img {
+    width: 600px;
+    height:auto;
+    object-fit: cover;
+}
+
+.card {
+    background-color: white;
+    padding: 12px;
+    border-radius: 15px;
+    margin: 16px 0px;
+}
+
+.card li {
+    margin: 5px 0px;
+}
